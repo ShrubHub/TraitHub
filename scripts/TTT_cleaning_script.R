@@ -14,7 +14,7 @@ library(ggplot2)
 
 # Import uncleaned data
 
-ttt.unclean <- read.csv("data_raw/TTT_uncleaned.csv", stringsAsFactors = F)
+ttt.unclean <- read.csv("data_raw/TTT_uncleaned_v1.csv", stringsAsFactors = F)
 
 ## Step 1: individual records against the entire distribution (except plant height and leaf area)
 ttt.clean2 <- ttt.unclean %>% dplyr::mutate(nrow=row_number()) %>% group_by(Trait) %>% dplyr::mutate(
