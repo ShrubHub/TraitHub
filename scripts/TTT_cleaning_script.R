@@ -128,7 +128,17 @@ ttt.clean <- plyr::ddply(ttt.clean, .(Trait, AccSpeciesName), transform,
 ttt.clean$ErrorRisk_species[ttt.clean$nObsSpp < 10] <- NA
 colnames(ttt.clean)[which(colnames(ttt.clean)=="ErrorRisk_species")] <- "ErrorRisk"
 
-ttt.clean <- ttt.clean[,c("AccSpeciesName","OriginalName","IndividualID","Latitude","Longitude","Elevation","SiteName","SubsiteName","DayOfYear","Year","DataContributor","ValueKindName","Trait","Value","Units","ErrorRisk","Comments")]
+ttt.clean <- ttt.clean[,c("AccSpeciesName","OriginalName","IndividualID","Latitude","Longitude","Elevation","SiteName","SubsiteName","Treatment","DayOfYear","Year","DataContributor","ValueKindName","Trait","Value","Units","ErrorRisk","Comments")]
 
 write.csv(ttt.clean, file = "data_clean/TTT_cleaned_dataset.csv")
+
+
+# CONVERT FROM LONG FORMAT TO WIDE ----
+
+# All traits measured on the same individual will be in the same row, traits in columns
+# Note that the resulting file will only contain trait values but NOT the Error Risk or Units (because these vary by trait within individuals)
+
+library(reshape2)
+
+ttt.wide <- dcast(ttt.clean[,c(colnames(ttt.clean)[which(colnames(ttt.clean) %in% c("ErrorRisk","Units")==F)])], AccSpeciesName+OriginalName+IndividualID+Latitude+Longitude+Elevation+SiteName+SubsiteName+Treatment+DayOfYear+Year+DataContributor+ValueKindName+Comments ~ Trait, value.var = "Value")
 
