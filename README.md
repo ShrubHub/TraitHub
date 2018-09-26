@@ -20,12 +20,12 @@ Major taxa and level of measurement: Trait measurements were made on 978 terrest
 Data are publically available using a Creative Commons Attribution 4.0 International copyright (CC BY 4.0).  Data are fully public but should be appropriately referenced by citing the data paper [include citation info here]. Although not mandatory, we additionally suggest that data users contact and collaborate with data contributors (names provided in the “DataContributor” column, contact information available through the TTT website: https://tundratraitteam.github.io/) whose datasets have contributed a substantial proportion (e.g., 5% or greater) of trait observations used in a particular paper or analysis.
 
 # Data availability & access
-The TTT database will be maintained at this GitHub repository (https://github.com/ShrubHub/TraitHub). Trait data collection is ongoing; thus, we periodically release updated versions of the database. A new version number will be assigned every time there is a database update, and old database versions will be archived for reference. A static version of the cleaned database (v 1.0) will also be available at the Polar Data Catalogue (www.polardata.ca; CCI # 12949) and additionally submitted to the TRY plant trait database (www.try-db.org) for inclusion in the next TRY version release. Data retrieved through TRY are fully public but are subject to the usage guidelines outlined in TRY. When using TTT data obtained through the Polar Data Catalogue or TRY, please cite this data paper as the original source. 
+The TTT database will be maintained at this GitHub repository (https://github.com/ShrubHub/TraitHub). Trait data collection is ongoing; thus, we periodically release updated versions of the database. A new version number will be assigned every time there is a database update, and old database versions will be archived for reference. A static version of the cleaned database (v 1.0) will also be available at the Polar Data Catalogue (www.polardata.ca; CCI # 12949) and additionally submitted to the TRY plant trait database (www.try-db.org) for inclusion in the next TRY version release. Data retrieved through TRY are fully public but are subject to the usage guidelines outlined in TRY. When using TTT data obtained through the Polar Data Catalogue or TRY, please cite the following data paper as the original source. 
 
 # Please see:
-Bjorkman, et al. Tundra Trait Team: A database of plant traits spanning the tundra biome. Submitted to Global Ecology and Biogeography, November 2017
+Bjorkman, et al. Tundra Trait Team: A database of plant traits spanning the tundra biome. Global Ecology and Biogeography, in press. DOI: http://dx.doi.org/10.1111/geb.12821
 
-Bjorkman, AD et al. Changes in plant functional traits across a warming tundra biome. Nature, in press.
+Bjorkman, AD et al. Changes in plant functional traits across a warming tundra biome. Nature, in press. DOI: http://dx.doi.org/10.1038/s41586-018-0563-7
 
 Thomas, HJD et al. Traditional plant functional groups explain variation in economic but not size-related traits across the tundra biome.
 Global Ecology and Biogeography, in press.
