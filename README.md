@@ -1,6 +1,6 @@
 # TraitHub
 This is a static version of the GitHub repository for the Tundra Trait Team database as included in the following study:
-Bjorkman AD, IH Myers-Smith, SC Elmendorf, S Normand, N Rüger, et al. 2018. Changes in plant functional traits across a warming tundra biome. Nature. DOI: http://doi.org/10.1038/s41586-018-0563-7
+Bjorkman AD, IH Myers-Smith, SC Elmendorf, S Normand, N Rüger, et al. 2018. Changes in plant functional traits across a warming tundra biome. Nature. doi: http://doi.org/10.1038/s41586-018-0563-7
 
 https://github.com/ShrubHub/TraitHub
 
@@ -29,12 +29,12 @@ The TTT database will be maintained at this GitHub repository (https://github.co
 # Citations:
 When using TTT data please cite the following data paper as the original source: 
 
-Bjorkman AD, IH Myers-Smith, SC Elmendorf, S Normand, Thomas HJD, et al. 2018. Tundra Trait Team: A database of plant traits spanning the tundra biome. Global Ecology and Biogeography. DOI: http://doi.org/10.1111/geb.12821
+Bjorkman AD, IH Myers-Smith, SC Elmendorf, S Normand, HJD Thomas, et al. 2018. Tundra Trait Team: A database of plant traits spanning the tundra biome. Global Ecology and Biogeography. doi: http://doi.org/10.1111/geb.12821
 
 Primary research papers that use these data:
 
-Bjorkman AD, IH Myers-Smith, SC Elmendorf, S Normand, N Rüger, et al. 2018. Changes in plant functional traits across a warming tundra biome. Nature. DOI: http://doi.org/10.1038/s41586-018-0563-7
+Bjorkman AD, IH Myers-Smith, SC Elmendorf, S Normand, N Rüger, et al. 2018. Changes in plant functional traits across a warming tundra biome. Nature. doi: http://doi.org/10.1038/s41586-018-0563-7
 
-Thomas HJD, IH Myers-Smith, Bjorkman AD, SC Elmendorf, D Blok, et al. 2018. Traditional plant functional groups explain variation in economic but not size-related traits across the tundra biome. Global Ecology and Biogeography. DOI: http://doi.org/10.1111/geb.12783
+Thomas HJD, IH Myers-Smith, Bjorkman AD, SC Elmendorf, D Blok, et al. 2018. Traditional plant functional groups explain variation in economic but not size-related traits across the tundra biome. Global Ecology and Biogeography. doi: http://doi.org/10.1111/geb.12783
 
-Thomas HD, Bjorkman AD, IH Myers-Smith, SC Elmendorf, J Kattge, et al. Global plant trait relationships extend to the climatic extremes of the tundra biome. Submitted to Nature Ecology and Evolution.
+Thomas HJD, AD Bjorkman, IH Myers-Smith, SC Elmendorf, J Kattge, et al. Global plant trait relationships extend to the climatic extremes of the tundra biome. Submitted to Nature Ecology and Evolution.
